@@ -31,11 +31,11 @@
 
 @font-face {
     font-family: "Titillium Light";
-    src: url("fonts/TitilliumWeb-LightItalic.ttf")
+    src: url("fonts/TitilliumWeb-ExtraLight.ttf")
 }
 
-
 #navbar {
+    margin-bottom: 0;
     background-color: var(--color-background);
 }
 
@@ -58,12 +58,15 @@
 .personnel-info {
     padding: 0em 2em 2em 2em;
     margin: 0em 2em 2em 2em;
+}
+
+.green-border {
     border-radius: 10px;
     border: 2px solid var(--color-primary);
 }
 
 .personnel-image {
-    min-height: 600px;
+    /* min-height: 600px; */
 }
 
 
@@ -114,6 +117,11 @@ h1 {
     font-family: "Titillium Bold" !important;
 }
 
+h2 {
+    font-family: "Titillium Light" !important;
+}
+
+
 #meetTheTeam {
     margin-bottom: 1em;
 }
@@ -122,8 +130,17 @@ h1 {
     margin-bottom: 0;
 }
 
+#abacusTitleSecondary {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
 #abacusDescription {
-    padding: 30px 230px 20px 230px;
+    /* padding: 30px 230px 20px 230px; */
     margin-top: 0;
 }
 
+.title-container {
+    width: 550px;
+    padding: 20px;
+}
