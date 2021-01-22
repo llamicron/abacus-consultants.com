@@ -5,39 +5,37 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.13/dist/css/uikit.min.css" />
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body class="center-stripe">
         <!-- Navbar -->
         <nav id="navbar" class="uk-navbar-container uk-margin" uk-navbar>
             <div class="uk-navbar-left uk-light">
         
                 <a class="uk-navbar-item uk-logo" href="#">Abacus Consulting Services</a>
-        
-                <!-- <ul class="uk-navbar-nav">
-                    <li>
-                        <a href="#">
-                            Our People
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Our Projects
-                        </a>
-                    </li>
-                </ul> -->
             </div>
         </nav>
 
+        <div class="uk-section">
+            <div class="uk-container">
+                <h1 id="abacusTitle" class="uk-heading-medium cover-stripe uk-text-center">Abacus Consulting Services</h1>
+                    <p id="abacusDescription" class="cover-stripe">
+                        was founded in 20XX by David Sweeney, a long time IT professional. It blah blah blah, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla numquam culpa facere, nisi perferendis nesciunt corporis quod perspiciatis ad, voluptatum magnam vel ratione totam dolore non. Deleniti ipsum consectetur saepe.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
         <!-- People -->
-        <div class="people-container">
+        <div>
 
             <!-- Meet the team heading -->
-            <h1 id="meetTheTeam" class="uk-heading-large cover-leader uk-dark uk-text-center">Meet the team</h1>
+            <h1 id="meetTheTeam" class="uk-heading-medium cover-stripe uk-dark uk-text-center">Meet the team</h1>
 
             <!-- David -->
             <div class="uk-grid uk-child-width-expand" uk-grid>
-                <div class="uk-width-2-5 uk-background-cover uk-height-match curve-bottom-right" uk-parallax="bgy: -100" style="background-image: url('images/david1.jpg');"></div>
+                <div class="uk-width-2-5 personnel-image uk-background-cover uk-height-match image-radius" uk-parallax="bgy: -100" style="background-image: url('images/david1.jpg');"></div>
                 <div class="uk-width-2-5">
-                    <div class="uk-container personnel-info">
+                    <div class="uk-container cover-stripe personnel-info">
                         <p class="name">David</p>
                         <p class="position">Founder</p>
                         <p class="description">
@@ -48,6 +46,9 @@
                         <ul class="uk-list contact-list">
                             <li><span uk-icon="icon: receiver"></span>(979) 492-????</li>
                             <li><span uk-icon="icon: mail"></span>david@abacus-????????.com</li>
+                            <li>
+                                <span uk-icon="icon: github"></span><a href="https://github.com/adaptiman">Github</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -57,11 +58,11 @@
             <div class="uk-grid uk-child-width-expand" uk-grid>
                 <div class="uk-width-1-5"></div>
                 <div class="uk-width-2-5">
-                    <div class="uk-container personnel-info">
+                    <div class="uk-container cover-stripe personnel-info">
                         <p class="name uk-text-right">Luke</p>
                         <p class="position uk-text-right">Contractor</p>
-                        <p class="description uk-text-left">
-                            Luke is a Software Engineering student at UT Arlington. He likes to build things and work with people. He's worked at Abacus for 6 years now,
+                        <p class="uk-text-left">
+                            Luke is a Software Engineering student at the University of Texas at Arlington. He likes to build things and work with people. He's worked at Abacus for 6 years now,
                             and has created software solutions for many different people, from charities to basketball teams. Now, he's looking for fresh problems to tackle
                             and new learning opportunities, all while finishing his undergraduate degree.
                             <br><br>
@@ -72,18 +73,21 @@
                         <ul class="uk-list uk-text-right contact-list">
                             <li>(979) 383-???<span uk-icon="icon: receiver"></span></li>
                             <li>luke@abacus-???????.com<span uk-icon="icon: mail"></span></li>
+                            <li>
+                                <a href="https://github.com/llamicron">Github</a><span uk-icon="icon: github"></span>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div class="uk-width-2-5 uk-height-match uk-background-cover curve-bottom-left" uk-parallax="bgy: -100" style="background-image: url('images/luke1.jpg');"></div>
+                <div class="uk-width-2-5 uk-height-match personnel-image uk-background-cover image-radius" uk-parallax="bgy: -100" style="background-image: url('images/luke1.jpg');"></div>
             </div>
 
 
             <!-- Gart -->
             <div class="uk-grid uk-child-width-expand" uk-grid>
-                <div class="uk-width-2-5 uk-background-cover uk-height-match curve-bottom-right" uk-parallax="bgy: -100" style="background-image: url('images/gart1.jpg');"></div>
+                <div class="uk-width-2-5 uk-background-cover personnel-image uk-height-match image-radius" uk-parallax="bgy: -100" style="background-image: url('images/gart1.jpg');"></div>
                 <div class="uk-width-2-5">
-                    <div class="uk-container personnel-info">
+                    <div class="uk-container cover-stripe personnel-info">
                         <p class="name">Garret</p>
                         <p class="position">Contractor</p>
                         <p class="description">

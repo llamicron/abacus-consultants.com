@@ -50,27 +50,20 @@
     font-family: "Titillium Bold" !important;
 }
 
-.uk-heading-large {
-    font-family: "Titillium Bold";
+.image-radius {
+    border-radius: 10px;
 }
 
-.curve-bottom-right {
-    /* border-radius: 10px 10px 100px 10px; */
-    border-radius: 10px 10px 10px 10px;
-}
-
-
-.curve-bottom-left {
-    /* border-radius: 10px 10px 10px 100px; */
-    border-radius: 10px 10px 10px 10px;
-}
 
 .personnel-info {
     padding: 0em 2em 2em 2em;
     margin: 0em 2em 2em 2em;
     border-radius: 10px;
     border: 2px solid var(--color-primary);
-    background-color: var(--color-background);
+}
+
+.personnel-image {
+    min-height: 600px;
 }
 
 
@@ -103,12 +96,34 @@ hr {
 }
 
 
-.people-container {
+.center-stripe {
     background: linear-gradient(#000, #000) no-repeat center/2px 100%;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.cover-stripe {
+    background-color: var(--color-background);
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: "Titillium Bold" !important;
 }
 
 #meetTheTeam {
     margin-bottom: 1em;
-    background-color: var(--color-background);
 }
+
+#abacusTitle {
+    margin-bottom: 0;
+}
+
+#abacusDescription {
+    padding: 30px 230px 20px 230px;
+    margin-top: 0;
+}
+
