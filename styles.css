@@ -1,7 +1,8 @@
 :root {
-    --text-color: #25282A;
+    --text-color: #1f2122;
     /* --color-primary: #352041; */
     /* --color-primary: #00AF66; */
+    --color-background: rgb(252, 249, 249);
     --color-primary: #11c077;
     --color-secondary: #3D7ACA;
     --color-warning: #FFC600;
@@ -10,12 +11,12 @@
 
     font-family: "Titillium";
 
-    background-color: var(--color-primary);
+    background-color: var(--color-background);
     color: var(--text-color);
 }
 
 ::selection {
-    background-color: var(--color-purple);
+    background-color: var(--color-primary);
 }
 
 @font-face {
@@ -35,7 +36,7 @@
 
 
 #navbar {
-    background-color: var(--color-primary);
+    background-color: var(--color-background);
 }
 
 .uk-navbar-item {
@@ -63,8 +64,20 @@
     border-radius: 10px 10px 10px 100px;
 }
 
-.personnel-image {
-    height: 550px;
+.personnel-info-left {
+    padding-left: 1.5em;
+    padding-bottom: 1em;
+    margin-left: 2em;
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-background);
+}
+
+.personnel-info-right {
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    margin-right: 3em;
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-background);
 }
 
 .name {
@@ -101,10 +114,7 @@ hr {
     margin-bottom: 20px;
 }
 
-.cover-leader {
-    background-color: var(--color-primary);
-}
-
 #meetTheTeam {
     margin-bottom: 1em;
+    background-color: var(--color-background);
 }
