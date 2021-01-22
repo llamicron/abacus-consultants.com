@@ -55,30 +55,24 @@
 }
 
 .curve-bottom-right {
-    border-radius: 10px 10px 100px 10px;
+    /* border-radius: 10px 10px 100px 10px; */
+    border-radius: 10px 10px 10px 10px;
 }
 
 
 .curve-bottom-left {
-    border-radius: 10px 10px 100px 10px;
-    border-radius: 10px 10px 10px 100px;
+    /* border-radius: 10px 10px 10px 100px; */
+    border-radius: 10px 10px 10px 10px;
 }
 
-.personnel-info-left {
-    padding-left: 1.5em;
-    padding-bottom: 1em;
-    margin-left: 2em;
+.personnel-info {
+    padding: 0em 2em 2em 2em;
+    margin: 0em 2em 2em 2em;
+    border-radius: 10px;
     border: 2px solid var(--color-primary);
     background-color: var(--color-background);
 }
 
-.personnel-info-right {
-    padding-right: 1.5em;
-    padding-bottom: 1em;
-    margin-right: 3em;
-    border: 2px solid var(--color-primary);
-    background-color: var(--color-background);
-}
 
 .name {
     font-size: 60px;
